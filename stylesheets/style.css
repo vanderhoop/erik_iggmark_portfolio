@@ -43,7 +43,9 @@ body {
 }
 
 header, footer {
-  align-items: center;
+  -webkit-align-items: center;
+  display: -webkit-flex;
+  display: -moz-flex;
   display: flex;
 }
 
