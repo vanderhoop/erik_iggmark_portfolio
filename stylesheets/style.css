@@ -1,7 +1,37 @@
-html, body {
-  background-color: #facade;
+/* Development Helpers */
+
+div {
+  border: 1px solid black;
+  min-height: 100%;
 }
 
-h1 {
-  text-align: center;
+html, body {
+  background-color: #EFEFEF;
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  position: relative;
+  width: 100%;
 }
+
+body {
+  background-color: white;
+  height: 100%;
+  margin: 0 auto;
+  width: 98%;
+}
+
+.half {
+  width: 49%;
+}
+
+.right, .left {
+  display: inline-block;
+}
+
+img.iggmark-logo {
+  width: 39%;
+}
+
+
+
+
